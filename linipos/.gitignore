@@ -1,0 +1,58 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+linipos-api/node_modules/
+
+# ===========================
+# Build output
+# ===========================
+dist/
+dist-ssr/
+dev-dist/
+linipos-api/dist/
+
+# ===========================
+# Environment & secrets
+# ===========================
+.env
+.env.local
+.env.*.local
+linipos-api/.env
+# Keep these (no secrets):
+# .env.development  → hanya VITE_API_URL=http://localhost:3001
+# linipos-api/.env.example → template publik
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===========================
+# OS / Editor
+# ===========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.kilocode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================
+# Misc
+# ===========================
+*.local
+.wrangler/
+afif_linipos_db.sql
+README copy.md
+PLAN.md
